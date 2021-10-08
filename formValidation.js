@@ -10,6 +10,7 @@ document.getElementById("loginBtn").addEventListener("click", function (e) {
         inputField.style.border = "1px solid red";
         inputField.style.boxShadow = "none";
         return false;
+	console.log("Zuzu :)");
     }
 
     else if (pswd.value == "") {
